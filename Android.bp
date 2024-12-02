@@ -1,0 +1,8 @@
+android_library {
+    name: "custom-sdk",
+
+    installable: false,
+
+    static_libs: [
+    ],
+}
