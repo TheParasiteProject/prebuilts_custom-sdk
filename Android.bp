@@ -4,5 +4,14 @@ android_library {
     installable: false,
 
     static_libs: [
+        // DO NOT EDIT THIS SECTION MANUALLY
+        "custom-sdk_com.github.bumptech.glide_annotations",
+        "custom-sdk_com.github.bumptech.glide_disklrucache",
+        "custom-sdk_com.github.bumptech.glide_gifdecoder",
+        "custom-sdk_com.github.bumptech.glide_glide",
+        "custom-sdk_io.coil-kt_coil",
+        "custom-sdk_io.coil-kt_coil-video",
+        "kotlin-stdlib",
+        "custom-sdk_org.lsposed.hiddenapibypass_hiddenapibypass",
     ],
 }
