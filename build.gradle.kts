@@ -60,7 +60,7 @@ dependencies {
     implementation("com.github.bumptech.glide:disklrucache:5.0.0-rc01")
 
     // Android Hidden Api Bypass
-    implementation("org.lsposed.hiddenapibypass:hiddenapibypass:4.3")
+    implementation("org.lsposed.hiddenapibypass:hiddenapibypass:6.1")
 }
 
 configure<GenerateBpPluginExtension> {

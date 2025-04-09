@@ -312,7 +312,7 @@ android_library {
 
 android_library_import {
     name: "custom-sdk_org.lsposed.hiddenapibypass_hiddenapibypass-nodeps",
-    aars: ["org/lsposed/hiddenapibypass/hiddenapibypass/4.3/hiddenapibypass-4.3.aar"],
+    aars: ["org/lsposed/hiddenapibypass/hiddenapibypass/6.1/hiddenapibypass-6.1.aar"],
     sdk_version: "34",
     min_sdk_version: "14",
     apex_available: [
@@ -331,7 +331,7 @@ android_library {
         "//apex_available:platform",
         "//apex_available:anyapex",
     ],
-    manifest: "org/lsposed/hiddenapibypass/hiddenapibypass/4.3/AndroidManifest.xml",
+    manifest: "org/lsposed/hiddenapibypass/hiddenapibypass/6.1/AndroidManifest.xml",
     static_libs: [
         "custom-sdk_org.lsposed.hiddenapibypass_hiddenapibypass-nodeps",
     ],
