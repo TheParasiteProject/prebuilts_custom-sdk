@@ -8,7 +8,7 @@
 java_import {
     name: "custom-sdk_com.github.bumptech.glide_annotations-nodeps",
     jars: ["com/github/bumptech/glide/annotations/5.0.0-rc01/annotations-5.0.0-rc01.jar"],
-    sdk_version: "34",
+    sdk_version: "35",
     min_sdk_version: "14",
     apex_available: [
         "//apex_available:platform",
@@ -18,7 +18,7 @@ java_import {
 
 java_library_static {
     name: "custom-sdk_com.github.bumptech.glide_annotations",
-    sdk_version: "34",
+    sdk_version: "35",
     min_sdk_version: "14",
     apex_available: [
         "//apex_available:platform",
@@ -33,7 +33,7 @@ java_library_static {
 java_import {
     name: "custom-sdk_com.github.bumptech.glide_disklrucache-nodeps",
     jars: ["com/github/bumptech/glide/disklrucache/5.0.0-rc01/disklrucache-5.0.0-rc01.jar"],
-    sdk_version: "34",
+    sdk_version: "35",
     min_sdk_version: "14",
     apex_available: [
         "//apex_available:platform",
@@ -43,7 +43,7 @@ java_import {
 
 java_library_static {
     name: "custom-sdk_com.github.bumptech.glide_disklrucache",
-    sdk_version: "34",
+    sdk_version: "35",
     min_sdk_version: "14",
     apex_available: [
         "//apex_available:platform",
@@ -58,7 +58,7 @@ java_library_static {
 android_library_import {
     name: "custom-sdk_com.github.bumptech.glide_gifdecoder-nodeps",
     aars: ["com/github/bumptech/glide/gifdecoder/5.0.0-rc01/gifdecoder-5.0.0-rc01.aar"],
-    sdk_version: "34",
+    sdk_version: "35",
     min_sdk_version: "14",
     apex_available: [
         "//apex_available:platform",
@@ -71,7 +71,7 @@ android_library_import {
 
 android_library {
     name: "custom-sdk_com.github.bumptech.glide_gifdecoder",
-    sdk_version: "34",
+    sdk_version: "35",
     min_sdk_version: "14",
     apex_available: [
         "//apex_available:platform",
@@ -88,7 +88,7 @@ android_library {
 android_library_import {
     name: "custom-sdk_com.github.bumptech.glide_glide-nodeps",
     aars: ["com/github/bumptech/glide/glide/5.0.0-rc01/glide-5.0.0-rc01.aar"],
-    sdk_version: "34",
+    sdk_version: "35",
     min_sdk_version: "14",
     apex_available: [
         "//apex_available:platform",
@@ -107,7 +107,7 @@ android_library_import {
 
 android_library {
     name: "custom-sdk_com.github.bumptech.glide_glide",
-    sdk_version: "34",
+    sdk_version: "35",
     min_sdk_version: "14",
     apex_available: [
         "//apex_available:platform",
@@ -130,7 +130,7 @@ android_library {
 java_import {
     name: "custom-sdk_com.squareup.okhttp3_okhttp-nodeps",
     jars: ["com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar"],
-    sdk_version: "34",
+    sdk_version: "35",
     min_sdk_version: "14",
     apex_available: [
         "//apex_available:platform",
@@ -140,7 +140,7 @@ java_import {
 
 java_library_static {
     name: "custom-sdk_com.squareup.okhttp3_okhttp",
-    sdk_version: "34",
+    sdk_version: "35",
     min_sdk_version: "14",
     apex_available: [
         "//apex_available:platform",
@@ -156,7 +156,7 @@ java_library_static {
 
 java_library_static {
     name: "custom-sdk_com.squareup.okio_okio",
-    sdk_version: "34",
+    sdk_version: "35",
     min_sdk_version: "14",
     apex_available: [
         "//apex_available:platform",
@@ -171,7 +171,7 @@ java_library_static {
 java_import {
     name: "custom-sdk_com.squareup.okio_okio-jvm-nodeps",
     jars: ["com/squareup/okio/okio-jvm/3.9.0/okio-jvm-3.9.0.jar"],
-    sdk_version: "34",
+    sdk_version: "35",
     min_sdk_version: "14",
     apex_available: [
         "//apex_available:platform",
@@ -181,7 +181,7 @@ java_import {
 
 java_library_static {
     name: "custom-sdk_com.squareup.okio_okio-jvm",
-    sdk_version: "34",
+    sdk_version: "35",
     min_sdk_version: "14",
     apex_available: [
         "//apex_available:platform",
@@ -197,7 +197,7 @@ java_library_static {
 android_library_import {
     name: "custom-sdk_io.coil-kt_coil-nodeps",
     aars: ["io/coil-kt/coil/2.7.0/coil-2.7.0.aar"],
-    sdk_version: "34",
+    sdk_version: "35",
     min_sdk_version: "14",
     apex_available: [
         "//apex_available:platform",
@@ -211,7 +211,7 @@ android_library_import {
 
 android_library {
     name: "custom-sdk_io.coil-kt_coil",
-    sdk_version: "34",
+    sdk_version: "35",
     min_sdk_version: "14",
     apex_available: [
         "//apex_available:platform",
@@ -229,7 +229,7 @@ android_library {
 android_library_import {
     name: "custom-sdk_io.coil-kt_coil-base-nodeps",
     aars: ["io/coil-kt/coil-base/2.7.0/coil-base-2.7.0.aar"],
-    sdk_version: "34",
+    sdk_version: "35",
     min_sdk_version: "14",
     apex_available: [
         "//apex_available:platform",
@@ -252,7 +252,7 @@ android_library_import {
 
 android_library {
     name: "custom-sdk_io.coil-kt_coil-base",
-    sdk_version: "34",
+    sdk_version: "35",
     min_sdk_version: "14",
     apex_available: [
         "//apex_available:platform",
@@ -279,7 +279,7 @@ android_library {
 android_library_import {
     name: "custom-sdk_io.coil-kt_coil-video-nodeps",
     aars: ["io/coil-kt/coil-video/2.7.0/coil-video-2.7.0.aar"],
-    sdk_version: "34",
+    sdk_version: "35",
     min_sdk_version: "14",
     apex_available: [
         "//apex_available:platform",
@@ -294,7 +294,7 @@ android_library_import {
 
 android_library {
     name: "custom-sdk_io.coil-kt_coil-video",
-    sdk_version: "34",
+    sdk_version: "35",
     min_sdk_version: "14",
     apex_available: [
         "//apex_available:platform",
@@ -313,7 +313,7 @@ android_library {
 android_library_import {
     name: "custom-sdk_org.lsposed.hiddenapibypass_hiddenapibypass-nodeps",
     aars: ["org/lsposed/hiddenapibypass/hiddenapibypass/6.1/hiddenapibypass-6.1.aar"],
-    sdk_version: "34",
+    sdk_version: "35",
     min_sdk_version: "14",
     apex_available: [
         "//apex_available:platform",
@@ -325,7 +325,7 @@ android_library_import {
 
 android_library {
     name: "custom-sdk_org.lsposed.hiddenapibypass_hiddenapibypass",
-    sdk_version: "34",
+    sdk_version: "35",
     min_sdk_version: "14",
     apex_available: [
         "//apex_available:platform",
