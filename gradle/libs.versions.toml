@@ -1,0 +1,26 @@
+#
+# SPDX-FileCopyrightText: 2024-2025 The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+
+[versions]
+agp = "8.13.0"
+kotlin = "2.1.10"
+coil = "+"
+glide = "+"
+hiddenapibypass = "+"
+generateBp = "+"
+
+[libraries]
+coil = { group = "io.coil-kt.coil3", name = "coil", version.ref = "coil" }
+coil-video = { group = "io.coil-kt.coil3", name = "coil-video", version.ref = "coil" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+glide-annotations = { group = "com.github.bumptech.glide", name = "annotations", version.ref = "glide" }
+glide-gifdecoder = { group = "com.github.bumptech.glide", name = "gifdecoder", version.ref = "glide" }
+glide-disklrucache = { group = "com.github.bumptech.glide", name = "disklrucache", version.ref = "glide" }
+hiddenapibypass = { group = "org.lsposed.hiddenapibypass", name = "hiddenapibypass", version.ref = "hiddenapibypass" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+lineageos-generatebp = { id = "org.lineageos.generatebp", version.ref = "generateBp" }
